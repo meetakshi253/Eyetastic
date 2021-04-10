@@ -18,7 +18,7 @@
 2. Install and run GazeFlow
 3. Download requirements.txt
 4. Run the python script gazetest.py
-5. Now the script is tracking your gaze and You can control your desktop just by your eyes
+5. Now the script is tracking your gaze and you can control your desktop just by your eye movement
 
 
 ### Currently supported features<br/>
