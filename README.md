@@ -1,7 +1,7 @@
 # Vihaan-Gaze-Track (Eyetastic)
 :eye_speech_bubble: :computer: :eye: :desktop_computer:
 
-❗️supported for Windows only.
+❗️<mark>Supported for Windows only.</mark>
 
 ## About the Project
 1. This tool utlises GazePointer: A Webcam eye tracker software that lets us determine the position of an individual's gaze on the screen. 
