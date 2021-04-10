@@ -18,11 +18,13 @@
 2. Install and run GazeFlow
 3. Run the python script gazetest.py
 4. Now the script is tracking your gaze and You can control your desktop just by your eyes
-### Currently supported features
-- Control window placement
-- Resize window
-- Scroll using eyes
-- Switch virtual desktops
+
+
+### Currently supported features<br/>
+ ⭐️ Control window placement<br/>
+ ⭐️ Resize window<br/>
+ ⭐️ Scroll using eyes<br/>
+ ⭐️ Switch virtual desktops<br/>
 
 ### Key bindings
 - <kbd>Alt</kbd> + <kbd>w</kbd> move window
