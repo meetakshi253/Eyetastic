@@ -2,6 +2,7 @@ import socket
 import xml.etree.ElementTree as ET
 import pygetwindow as pgw
 import keyboard
+import mouse
 #Run this file after running the gazepointer application
 alt_pressed = False
 w_pressed = False
@@ -97,7 +98,7 @@ while True:
         elif s_pressed:
             active_window.resizeTo(int(1000*Y/1000),int(1000*Y/1000))
     if a_pressed:
-        print("yoooooo")
+        mouse.wheel(int(10*(500-Y)/500))
         
 
     print("{}: {}".format(root[0].tag, root[0].text))
