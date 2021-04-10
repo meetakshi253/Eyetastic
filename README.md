@@ -30,5 +30,5 @@
 - <kbd>Alt</kbd> + <kbd>w</kbd> move window
 - <kbd>Alt</kbd> + <kbd>s</kbd> resize window
 - <kbd>Alt</kbd> + <kbd>a</kbd> activate eye-scrolling
-- Desktop switching is always active
-### [Demo](https://www.youtube.com/watch?v=wi_Zo3Xchi8)
+- Desktop switching is always active<br/>
+👩‍💻### [Demo](https://www.youtube.com/watch?v=wi_Zo3Xchi8)
