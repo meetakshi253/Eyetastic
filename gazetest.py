@@ -15,13 +15,15 @@ while True:
     try:
         data = data.decode("utf-8")
     except:
+        # print(repr(data))
+        print("-------------------------------------------------------------------------------")
         continue
     
-    
-    print(data)
     try:
-        root = ET.fromstring(data[1:])
+    	root=ET.fromstring(data[1:])
     except:
-        continue
-    print(root)
+    	continue
+    print(root)	
+    print("{}: {}".format(root[0].tag, root[0].text))
+    print("{}: {}".format(root[1].tag, root[1].text))
     print("heymama-------------------------------------------------------------------------------")
