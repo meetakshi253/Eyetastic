@@ -32,8 +32,8 @@
  ⭐️ Switch virtual desktops<br/>
 
 ### Key bindings
-1. <kbd>Alt</kbd> + <kbd>w</kbd> hold to move window
-2. <kbd>Alt</kbd> + <kbd>s</kbd> hold to resize window
+1. <kbd>Alt</kbd> + <kbd>w</kbd> hold to activate window relocation
+2. <kbd>Alt</kbd> + <kbd>s</kbd> hold to activate window resizing
 3. <kbd>Alt</kbd> + <kbd>a</kbd> press to activate eye-scrolling
 4. Desktop switching is always active<br/>
 
