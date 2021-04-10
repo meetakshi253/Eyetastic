@@ -6,11 +6,11 @@
 2. Using the GazeTracker API, we gather data, namely the GazeX and GazeY coordinates.
 3. We then utlise these coordinates and key-binding techniques to perform a variety of on-screen interactive actions 
 
-### On-Screen Interactions
- ✅ Move Window
- ✅ Desktop Switching
- ✅ Scrolling
- ✅ Resizing
+### On-Screen Interactions<br/>
+ ✅ Move Window<br/>
+ ✅ Desktop Switching<br/>
+ ✅ Scrolling<br/>
+ ✅ Resizing<br/>
 
 
 ### How to use
