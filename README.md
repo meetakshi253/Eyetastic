@@ -13,6 +13,8 @@
  ✅ Desktop Switching<br/>
  ✅ Scrolling<br/>
  ✅ Resizing<br/>
+ [ ] Active window focus<br/>
+ 
 
 
 ### How to use
