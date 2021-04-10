@@ -20,3 +20,8 @@
 4. Now the script is tracking your gaze and You can control your desktop just by your eyes
 
 ### Key bindings
+
+- <kbd>Alt</kbd> + <kbd>w</kbd> move window
+- <kbd>Alt</kbd> + <kbd>s</kbd> resize window
+- <kbd>Alt</kbd> + <kbd>a</kbd> activate eye-scrolling
+- Desktop switching is always active
