@@ -6,3 +6,4 @@ TO-DO
 [ ] Scrolling
 [ ] Resizing
 [ ] ~Screenshot~
+<ul><li>- [ ] Move window</li><li>- [ ] Active focus</li></ul>
