@@ -7,10 +7,10 @@
 3. We then utlise these coordinates and key-binding techniques to perform a variety of on-screen interactive actions 
 
 ### On-Screen Interactions
-- [x] Move Window
-- [x] Desktop Switching
-- [x] Scrolling
-- [x] Resizing
+- ✅ Move Window
+- ✅ Desktop Switching
+- ✅ Scrolling
+- ✅ Resizing
 
 
 ### How to use
