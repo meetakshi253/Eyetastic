@@ -1,5 +1,5 @@
 import socket
-
+import xml.etree.ElementTree as ET
 #Run this file after running the gazepointer application
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -15,8 +15,13 @@ while True:
     try:
         data = data.decode("utf-8")
     except:
-        print(repr(data))
-        print("-------------------------------------------------------------------------------")
         continue
+    
+    
     print(data)
+    try:
+        root = ET.fromstring(data[1:])
+    except:
+        continue
+    print(root)
     print("heymama-------------------------------------------------------------------------------")
