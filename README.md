@@ -2,9 +2,9 @@
 :eye_speech_bubble: :computer: :eye: :desktop_computer:
 
 ## About the Project
-- This tool utlises GazePointer: A Webcam eye tracker software that lets us determine the position of an individual's gaze on the screen. 
-- Using the GazeFlow API, we gather data, namely the GazeX and GazeY coordinates.
-- We then utlise these coordinates and key-binding techniques to perform a variety of on-screen interactive actions 
+1. This tool utlises GazePointer: A Webcam eye tracker software that lets us determine the position of an individual's gaze on the screen. 
+2. Using the GazeFlow API, we gather data, namely the GazeX and GazeY coordinates.
+3. We then utlise these coordinates and key-binding techniques to perform a variety of on-screen interactive actions 
 
 ### On-Screen Interactions<br/>
  ✅ Move Window<br/>
@@ -27,9 +27,9 @@
  ⭐️ Switch virtual desktops<br/>
 
 ### Key bindings
-- <kbd>Alt</kbd> + <kbd>w</kbd> move window
-- <kbd>Alt</kbd> + <kbd>s</kbd> resize window
-- <kbd>Alt</kbd> + <kbd>a</kbd> activate eye-scrolling
-- Desktop switching is always active<br/>
+1. <kbd>Alt</kbd> + <kbd>w</kbd> move window
+2. <kbd>Alt</kbd> + <kbd>s</kbd> resize window
+3. <kbd>Alt</kbd> + <kbd>a</kbd> activate eye-scrolling
+4. Desktop switching is always active<br/>
 
-###[Demo](https://www.youtube.com/watch?v=wi_Zo3Xchi8)
+### [Demo](https://www.youtube.com/watch?v=wi_Zo3Xchi8)
