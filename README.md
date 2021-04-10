@@ -3,7 +3,7 @@
 
 ## About the Project
 - This tool utlises GazePointer: A Webcam eye tracker software that lets us determine the position of an individual's gaze on the screen. 
-- Using the GazeTracker API, we gather data, namely the GazeX and GazeY coordinates.
+- Using the GazeFlow API, we gather data, namely the GazeX and GazeY coordinates.
 - We then utlise these coordinates and key-binding techniques to perform a variety of on-screen interactive actions 
 
 ### On-Screen Interactions<br/>
