@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 import pygetwindow as pgw
 import keyboard
 import mouse
+import time
 #Run this file after running the gazepointer application
 alt_pressed = False
 w_pressed = False
@@ -63,6 +64,9 @@ keyboard.on_release_key('s',onsrel)
 keyboard.on_press_key('a',onapres)
 keyboard.on_release_key('a',onarel)
 
+
+sincedone = time.time()
+
 while True:
     
     data = s.recv(4096)
@@ -74,16 +78,32 @@ while True:
         continue
     
     try:
-    	root=ET.fromstring(data[1:])
+        root=ET.fromstring(data[1:])
+        print(root)	
+        X = float(root[0].text)
+        Y = float(root[1].text)
     except:
-    	continue
-    print(root)	
-    X = float(root[0].text)
-    Y = float(root[1].text)
+        if data.find("GazeX")!=-1 and data.find("/GazeX")!=-1:
+            x1 = data.find("GazeX")
+            x2 = data.find("</GazeX")
+            X = float(data[x1+6:x2])
+        else:
+            continue
+        if data.find("GazeY")!=-1 and data.find("GazeY")!=-1:
+            x1 = data.find("GazeY")
+            x2 = data.find("</GazeY")
+            Y = float(data[x1+6:x2])
+        else:
+            continue
+        print("alternate")
+        
+    
     active_window = pgw.getActiveWindow()
-    if X>1350:
+    if X>1350 and time.time()-sincedone>1:
+        sincedone = time.time()
         keyboard.send('windows+ctrl+right')
-    if X<30:
+    if X<30 and time.time()-sincedone>1:
+        sincedone = time.time()
         keyboard.send('windows+ctrl+left')
     if alt_pressed:
         if w_pressed:
@@ -101,6 +121,6 @@ while True:
         mouse.wheel(int(10*(500-Y)/500))
         
 
-    print("{}: {}".format(root[0].tag, root[0].text))
-    print("{}: {}".format(root[1].tag, root[1].text))
-    print("heymama-------------------------------------------------------------------------------")
+    print("{}: {}".format("GazeX", str(X)))
+    print("{}: {}".format("GazeY", str(Y)))
+    print("-------------------------------------------------------------------------------")
