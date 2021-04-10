@@ -1,4 +1,4 @@
-# Vihaan-Gaze-Track
+# Vihaan-Gaze-Track (Eyetastic)
 :eye_speech_bubble: :computer: :eye: :desktop_computer:
 
 ## About the Project
