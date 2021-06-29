@@ -1,4 +1,4 @@
-# Vihaan-Gaze-Track (Eyetastic)
+# Eyetastic
 :eye_speech_bubble: :computer: :eye: :desktop_computer:
 
 ❗️<mark>Supported for Windows only.</mark>
